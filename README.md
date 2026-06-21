@@ -148,19 +148,6 @@ Many users create passwords that appear secure but are still vulnerable to commo
 
 ---
 
-## 📸 Screenshots
-
-### Home Page
-_Add project screenshot here_
-
-### Password Analysis
-_Add analysis screenshot here_
-
-### Strong Password Generation
-_Add password generator screenshot here_
-
----
-
 ## 👨‍💻 Author
 
 **Arnav Singh Rawat**
