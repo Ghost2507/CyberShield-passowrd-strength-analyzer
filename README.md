@@ -158,7 +158,7 @@ B.Tech Computer Science Engineering (Cyber Security)
 
 🔗 GitHub: https://github.com/Ghost2507
 
-🔗 LinkedIn: YOUR_LINKEDIN_PROFILE
+🔗 LinkedIn: linkedin.com/in/arnav-rawat-8a8b57324
 
 ---
 
