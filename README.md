@@ -1,36 +1,188 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🔐 CyberShield Password Analyzer
 
-## Getting Started
+A cybersecurity-focused web application that evaluates password strength using multiple security parameters, provides actionable security recommendations, and generates strong passwords to help users create safer online accounts.
 
-First, run the development server:
+## 🚀 Live Demo
+
+🌐 https://cyber-shield-passowrd-strength-anal.vercel.app/
+
+## 📂 GitHub Repository
+
+🔗 https://github.com/Ghost2507/CyberShield-password-strength-analyzer
+
+---
+
+## 📖 Overview
+
+Weak passwords remain one of the most common causes of account compromise. CyberShield Password Analyzer helps users understand the security level of their passwords by analyzing password complexity, detecting weak patterns, and providing recommendations for improvement.
+
+The application performs all analysis locally in the browser, ensuring user privacy and fast performance.
+
+---
+
+## ✨ Features
+
+- Password Strength Analysis
+- Security Score (0–100)
+- Weak, Medium, and Strong Classification
+- Real-Time Password Evaluation
+- Password Strength Meter
+- Detection of Common Weak Password Patterns
+- Security Recommendations
+- Secure Password Generator
+- Mobile-Friendly Responsive Design
+- Fast Client-Side Processing
+
+---
+
+## 🛡️ Password Evaluation Criteria
+
+CyberShield evaluates passwords using multiple security factors:
+
+- Password Length
+- Uppercase Letters (A-Z)
+- Lowercase Letters (a-z)
+- Numeric Characters (0-9)
+- Special Characters (!@#$%^&*)
+- Password Complexity
+- Common Weak Password Detection
+- Overall Entropy Estimation
+
+---
+
+## 🏗️ Tech Stack
+
+### Frontend
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+
+### Deployment
+- Vercel
+
+### Version Control
+- Git & GitHub
+
+---
+
+## 📁 Project Structure
+
+```text
+cybershield/
+│
+├── public/
+│
+├── src/
+│   ├── app/
+│   │   └── page.tsx
+│   │
+│   ├── components/
+│   │   ├── GenerateButton.tsx
+│   │   ├── PasswordInput.tsx
+│   │   ├── Recommendations.tsx
+│   │   └── StrengthMeter.tsx
+│   │
+│   └── lib/
+│       ├── analyzer.ts
+│       └── generator.ts
+│
+├── package.json
+├── README.md
+└── vercel.json
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Ghost2507/CyberShield-password-strength-analyzer.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd CyberShield-password-strength-analyzer
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🚀 Deployment
 
-To learn more about Next.js, take a look at the following resources:
+This application is deployed using Vercel.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Build command:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run build
+```
 
-## Deploy on Vercel
+Deploy by importing the GitHub repository into Vercel.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🎯 Use Case
+
+Many users create passwords that appear secure but are still vulnerable to common attack techniques. CyberShield helps users identify weaknesses in their passwords and provides practical recommendations to improve account security before using them online.
+
+---
+
+## 📸 Screenshots
+
+### Home Page
+_Add project screenshot here_
+
+### Password Analysis
+_Add analysis screenshot here_
+
+### Strong Password Generation
+_Add password generator screenshot here_
+
+---
+
+## 👨‍💻 Author
+
+**Arnav Singh Rawat**
+
+B.Tech Computer Science Engineering (Cyber Security)
+
+📧 Email: arnav.singh.rawat07@gmail.com
+
+🔗 GitHub: https://github.com/Ghost2507
+
+🔗 LinkedIn: YOUR_LINKEDIN_PROFILE
+
+---
+
+## 🏆 Digital Heroes Trial Task
+
+This project was developed as part of the Digital Heroes Custom Software Developer Trial Task.
+
+The goal was to build and deploy a useful online tool using modern AI-assisted development workflows while maintaining clean implementation, usability, and real-world value.
+
+---
+
+## 📜 License
+
+This project is intended for educational, portfolio, and demonstration purposes.
